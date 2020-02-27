@@ -1,0 +1,37 @@
+{
+  "name": "pokertimer-web",
+  "version": "1.0.0",
+  "main": "index.tsx",
+  "repository": "https://github.com/andregusmao/pokertimer-web.git",
+  "author": "André Gusmão <agusmao720919@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "react-scripts start"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.9.4",
+    "@material-ui/icons": "^4.9.1",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-scripts": "^3.4.0",
+    "typeface-roboto": "^0.0.75"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.6",
+    "@types/react": "^16.9.23",
+    "@types/react-dom": "^16.9.5",
+    "typescript": "^3.8.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
