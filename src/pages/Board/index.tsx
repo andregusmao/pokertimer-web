@@ -1,9 +1,13 @@
 import React from 'react';
 
-import Background from '../../assets/pokertimer-background.jpg';
+import useStyles from './styles';
 
 const Board = () => {
+    const styles = useStyles();
+
     return (
-        <img src={Background}/>
+        <div className={styles.root}></div>
     )
 }
+
+export default Board;

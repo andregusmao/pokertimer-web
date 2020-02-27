@@ -3,6 +3,6 @@ import ReactDOM from 'react-dom';
 
 import 'typeface-roboto';
 
-import Login from './pages/Login';
+import Board from './pages/Board';
 
-ReactDOM.render(<Login />, document.getElementById('root'));
+ReactDOM.render(<Board />, document.getElementById('root'));
